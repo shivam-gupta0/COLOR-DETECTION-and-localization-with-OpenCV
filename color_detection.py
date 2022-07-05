@@ -4,7 +4,7 @@ from numpy import asarray
 
 threshold_val = 500;
 
-path_to_img = "L:\master_thesis\project//trackbar_color_detection\color_wheel.jpg"
+path_to_img = "L:\project//trackbar_color_detection\color_wheel.jpg"
 
 img = cv2.imread(path_to_img)
 imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
