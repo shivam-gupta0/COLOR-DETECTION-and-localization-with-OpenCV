@@ -1,4 +1,4 @@
-# COLOR_DETECTION_OpenCV
+# COLOR DETECTION and localization with OpenCV
 Custom color Detection using OpenCV, Python.
 # STEP 1 FIND CUSTOM COLOR VALUES
 Editing the color value in source code and running the program, again and again, can be tedious, instead, you can bind trackbars to the output image window. Trackbar is a GUI element that let the user select a specific value within a range of values by sliding a slider linearly. It’s similar to scrolling but it limits the user to select a specific value with its minimum and maximum limits. A change in Trackbar value will result in a change in the mask. Create a mask of the desired color by changing the trackbar value to get a color value.
